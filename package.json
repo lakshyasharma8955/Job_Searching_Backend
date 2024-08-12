@@ -9,7 +9,7 @@
     "start": "node dist/app.js",
     "node": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "build": "babel src --out-dir dist"
+    "build": "npx babel src --out-dir dist"
   },
   "author": "",
   "license": "ISC",
@@ -41,7 +41,6 @@
   "devDependencies": {
     "@babel/cli": "^7.24.8",
     "@babel/core": "^7.25.2",
-    "@babel/preset-env": "^7.25.3",
-    "babel-cli": "^6.26.0"
+    "@babel/preset-env": "^7.25.3"
   }
 }
