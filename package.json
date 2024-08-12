@@ -9,7 +9,7 @@
     "start": "node dist/app.js",
     "node": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "build": "babel src --out-dir dist"
+    "build": "npx babel src --out-dir dist"
   },
   "author": "",
   "license": "ISC",
